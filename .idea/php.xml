@@ -106,6 +106,11 @@
       <path value="$PROJECT_DIR$/vendor/jmikola/geojson" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel/helpers" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-aws-s3-v3" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-taggable" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
