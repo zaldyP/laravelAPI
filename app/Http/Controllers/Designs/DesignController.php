@@ -6,6 +6,9 @@ use App\Http\Controllers\Controller;
 use App\Http\Resources\DesignResource;
 use App\Models\Design;
 use App\Repositories\Contracts\IDesign;
+use App\Repositories\Eloquent\Criteria\ForUser;
+use App\Repositories\Eloquent\Criteria\isLive;
+use App\Repositories\Eloquent\Criteria\LatestFirst;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -22,7 +25,9 @@ class DesignController extends Controller
 
     public function index()
     {
-        $designs = $this->designs->all();
+        $designs = $this->designs->withCriteria([
+            new LatestFirst(), new isLive(), new ForUser(2)
+        ])->all();
         return DesignResource::collection($designs);
     }
 
@@ -31,7 +36,6 @@ class DesignController extends Controller
         $design = $this->designs->find($id);
         return new DesignResource($design);
     }
-
 
 
     public function update(Request $request, $id)

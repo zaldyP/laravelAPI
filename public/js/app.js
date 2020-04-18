@@ -7301,7 +7301,7 @@ function Sizzle( selector, context, results, seed ) {
 			// Take advantage of querySelectorAll
 			if ( support.qsa &&
 				!nonnativeSelectorCache[ selector + " " ] &&
-				( !rbuggyQSA || !rbuggyQSA.test( selector ) ) &&
+				( !rbuggyQSA || !rbuggyQSA.ICriteria( selector ) ) &&
 
 				// Support: IE 8 only
 				// Exclude object elements
@@ -8079,8 +8079,8 @@ Sizzle.matchesSelector = function( elem, expr ) {
 
 	if ( support.matchesSelector && documentIsHTML &&
 		!nonnativeSelectorCache[ expr + " " ] &&
-		( !rbuggyMatches || !rbuggyMatches.test( expr ) ) &&
-		( !rbuggyQSA     || !rbuggyQSA.test( expr ) ) ) {
+		( !rbuggyMatches || !rbuggyMatches.ICriteria( expr ) ) &&
+		( !rbuggyQSA     || !rbuggyQSA.ICriteria( expr ) ) ) {
 
 		try {
 			var ret = matches.call( elem, expr );
@@ -15608,7 +15608,7 @@ function ajaxHandleResponses( s, jqXHR, responses ) {
 	// Check if we're dealing with a known content-type
 	if ( ct ) {
 		for ( type in contents ) {
-			if ( contents[ type ] && contents[ type ].test( ct ) ) {
+			if ( contents[ type ] && contents[ type ].ICriteria( ct ) ) {
 				dataTypes.unshift( type );
 				break;
 			}
@@ -18274,7 +18274,7 @@ return jQuery;
 
   /**
    * The base implementation of `_.sortBy` which uses `comparer` to define the
-   * sort order of `array` and replaces criteria objects with their corresponding
+   * sort order of `array` and replaces Criteria objects with their corresponding
    * values.
    *
    * @private
@@ -42974,7 +42974,7 @@ function matches (pattern, name) {
   } else if (typeof pattern === 'string') {
     return pattern.split(',').indexOf(name) > -1
   } else if (isRegExp(pattern)) {
-    return pattern.test(name)
+    return pattern.ICriteria(name)
   }
   /* istanbul ignore next */
   return false
@@ -43609,7 +43609,7 @@ function createPatchFunction (backend) {
         config.ignoredElements.length &&
         config.ignoredElements.some(function (ignore) {
           return isRegExp(ignore)
-            ? ignore.test(vnode.tag)
+            ? ignore.ICriteria(vnode.tag)
             : ignore === vnode.tag
         })
       ) &&
@@ -44848,7 +44848,7 @@ function getAndRemoveAttrByRegex (
   var list = el.attrsList;
   for (var i = 0, l = list.length; i < l; i++) {
     var attr = list[i];
-    if (name.test(attr.name)) {
+    if (name.ICriteria(attr.name)) {
       list.splice(i, 1);
       return attr
     }
