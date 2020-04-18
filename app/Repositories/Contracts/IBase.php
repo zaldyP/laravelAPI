@@ -2,6 +2,8 @@
 
 namespace App\Repositories\Contracts;
 
-interface IUser {
+interface IBase {
+
+    public function all();
 
 }
