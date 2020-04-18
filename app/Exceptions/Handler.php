@@ -45,6 +45,9 @@ class Handler extends ExceptionHandler
             }
         }
 
+
+
+
         if($exception instanceof ModelNotFoundException && $request->expectsJson()){
             return response()->json(["errors" => [
                 'message' => "The resource was not found in the database"
