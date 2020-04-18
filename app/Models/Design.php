@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
+use App\Models\Traits\Likeable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Storage;
 use Cviebrock\EloquentTaggable\Taggable;
 
 class Design extends Model
 {
-    use Taggable;
+    use Taggable, Likeable;
 
     protected $fillable = [
         'user_id',
@@ -32,6 +33,8 @@ class Design extends Model
         return $this->morphMany(Comment::class,'commentable')->orderBy('created_at', 'asc');
     }
 
+
+
     public function getImagesAttribute()
     {
         return [
@@ -43,8 +46,7 @@ class Design extends Model
 
     protected function getImagePath($size)
     {
-       return  Storage::disk($this->disk)
-            ->url("uploads/designs/{$size}/" .$this->image);
+       return  Storage::disk($this->disk)->url("uploads/designs/{$size}/" .$this->image);
 
     }
 }
