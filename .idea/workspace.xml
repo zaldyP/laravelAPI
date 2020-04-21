@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6344842-2cb2-4726-b284-64dc4745cec6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/UserResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/UserResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Designs/DesignController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Designs/DesignController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Contracts/IDesign.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Contracts/IDesign.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Contracts/IUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Contracts/IUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,28 +28,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Resources/MessageResource.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="146">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Models/Message.php">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding>
-                <element signature="e#30#69#0#PHP" expanded="true" />
+                <element signature="e#46#66#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,6 +51,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>APP_DEBUG</find>
+      <find>oute</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -65,14 +60,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Resources/CommentResource.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Contracts/IComment.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/app/Policies/CommentPolicy.php" />
         <option value="$PROJECT_DIR$/app/Models/Like.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_18_135211_create_likes_table.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/Contracts/IDesign.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php" />
         <option value="$PROJECT_DIR$/app/Models/Traits/Likeable.php" />
         <option value="$PROJECT_DIR$/app/Models/Comment.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Designs/CommentController.php" />
@@ -81,13 +73,9 @@
         <option value="$PROJECT_DIR$/app/Policies/TeamPolicy.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_19_092955_add_team_id_to_designs.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Eloquent/TeamRepository.php" />
-        <option value="$PROJECT_DIR$/app/Models/Design.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/TeamResource.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Designs/DesignController.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/DesignResource.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_19_113013_create_invitations_table.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/Contracts/IUser.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/invitations/invite-new-user.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/emails/invitations/invite-existing-user.blade.php" />
         <option value="$PROJECT_DIR$/app/Mail/SendInvitationToJoinTeam.php" />
@@ -107,7 +95,6 @@
         <option value="$PROJECT_DIR$/app/Repositories/Contracts/IChat.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Eloquent/ChatRepository.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Eloquent/Criteria/WithTrashed.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Policies/MessagePolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Chats/ChatController.php" />
@@ -116,6 +103,14 @@
         <option value="$PROJECT_DIR$/app/Http/Resources/ChatResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/MessageResource.php" />
         <option value="$PROJECT_DIR$/app/Models/Message.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Designs/DesignController.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Contracts/IDesign.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Contracts/IUser.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php" />
+        <option value="$PROJECT_DIR$/app/Models/Design.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
   </component>
@@ -235,7 +230,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -263,20 +258,14 @@
               <item name="designhouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="designhouse" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designhouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="designhouse" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designhouse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designhouse" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="Eloquent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,16 +282,17 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pc\Documents\laravel\designhouse\resources\views\emails\invitations" />
+      <recent name="C:\Users\pc\Documents\laravel\designhouse\app\Repositories\Criteria" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Documents\laravel\designhouse\app\Repositories\Eloquent" />
       <recent name="C:\Users\pc\Documents\laravel\designhouse\app\Repositories\Eloquent\Criteria" />
       <recent name="C:\Users\pc\Documents\laravel\designhouse\app\Models" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pc\Documents\laravel\designhouse\resources\views\emails\invitations" />
-      <recent name="C:\Users\pc\Documents\laravel\designhouse\app\Repositories\Criteria" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,6 +332,9 @@
       <workItem from="1587271946528" duration="38367000" />
       <workItem from="1587351647327" duration="18746000" />
       <workItem from="1587376763723" duration="24296000" />
+      <workItem from="1587431943411" duration="7649000" />
+      <workItem from="1587444483987" duration="1508000" />
+      <workItem from="1587446049522" duration="2675000" />
     </task>
     <servers />
   </component>
@@ -351,7 +344,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205945000" />
+    <option name="totallyTimeSpent" value="217777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,9 +357,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14932127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16968326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -387,35 +379,33 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1417798" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3293718" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3293718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015083" side_tool="true" weight="0.32088286" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4984917" weight="0.33616298" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notifications/VerifyEmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Notifications/ResetPassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#115#165#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-376">
@@ -459,16 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Design.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#30#61#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,16 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="52" />
-          <folding>
-            <element signature="e#45#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/InvitationRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -571,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -595,37 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/Contracts/IUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="13" column="5" lean-forward="true" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#66#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/Contracts/IMessage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/MessageRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#46#69#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/ChatResource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -783,19 +712,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/MessageResource.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/Message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="-46">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#69#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Message.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/MessageResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/Contracts/IUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/DesignRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#45#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/Contracts/IDesign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Designs/DesignController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="97" column="60" lean-forward="true" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Design.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="e#30#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa29152.44623/fira_code.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa29152.44439/fira_code.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
           <folding>
-            <element signature="e#30#69#0#PHP" expanded="true" />
+            <element signature="e#46#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
