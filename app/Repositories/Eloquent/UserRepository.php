@@ -24,6 +24,7 @@ class UserRepository extends BaseRepository implements IUser
     {
         $query = (new $this->model)->newQuery();
 
+        
         // only designers who have designs
         if($request->has_designs){
             $query->has('designs');

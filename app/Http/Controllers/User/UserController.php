@@ -22,7 +22,7 @@ class UserController extends Controller
 
     public function index()
     {
-         $users= $this->users->withCriteria([
+         $users = $this->users->withCriteria([
             new EagerLoad(['designs'])
         ])->all();
         return UserResource::collection($users);
@@ -31,6 +31,19 @@ class UserController extends Controller
     public function search(Request $request)
     {
         $designers = $this->users->search($request);
+
         return UserResource::collection($designers);
+
+        
     }
+
+    public function findByUsername($username)
+    {
+        $user = $this->users->findWhereFirst('username', $username);
+
+        return new UserResource($user);
+    }
+
+    
+
 }

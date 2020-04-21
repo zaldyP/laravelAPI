@@ -6,11 +6,15 @@ Route::get('me', 'User\meController@getMe');
 //get Designs
 Route::get('designs', 'Designs\DesignController@index');
 Route::get('designs/{id}', 'Designs\DesignController@findDesign');
+Route::get('designs/slug/{id}', 'Designs\DesignController@findbySlug');
 
 //get users
 Route::get('users', 'User\UserController@index');
+Route::get('user/{username}', 'User\UserController@findByUsername');
+Route::get('users/{id}/designs', 'Designs\DesignController@getForUser');
 
 Route::get('teams/slug/{slug}', 'Teams\TeamsController@findBySlug');
+Route::get('teams/{id}/designs','Designs\DesignController@getForTeam');
 
 //Search Designs
 Route::get('search/designs', 'Designs\DesignController@search');

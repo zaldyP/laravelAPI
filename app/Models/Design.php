@@ -53,4 +53,6 @@ class Design extends Model
        return  Storage::disk($this->disk)->url("uploads/designs/{$size}/" .$this->image);
 
     }
+
+    
 }
